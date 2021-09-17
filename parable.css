@@ -1,0 +1,58 @@
+.good {
+    color:green;
+    text-transform: Capitalize
+}
+.bad {
+    color:red;
+    text-transform: capitalize;
+
+    }
+p{
+    font-size: 16px;
+    font-family: Arial, serif;
+    color: navy;
+    line-height: 25px;
+}
+a:link { color:navy}
+a:visited { color: darkmagenta}
+a:hover { color: blue}
+
+body{
+    max-width: 90%;
+    text-align: center;
+    background-image: url("https://www.chinafile.com/sites/default/files/styles/large/public/p1020648_0.jpg?itok=snNsMxyn");
+    background-repeat: no-repeat;
+    background-color:#DED0A7;
+    background-position: bottom right;
+    background-size: cover;
+    margin: auto;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: grey;
+}
+table{
+    margin: auto;
+    table: auto;
+}
+q.farmerq {
+    font-style: italic;
+    color: #000000;
+}
+q.peopleq{
+    font-style: italic;
+    color: darkgreen;
+}
+#editor {
+    background-color: yellow;
+}
+
+#first\ section{
+    font-weight: bold;
+}
+img {
+    float: right;
+    margin: 10px;
+}
